@@ -95,7 +95,7 @@ html {
   --hover-color: #111;
   --visited-color: #5200ff;
   --project-title-color: #5200ff;
-  --project-sidebar-background-color: orangered;
+  --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: white;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
@@ -843,8 +843,19 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 5rem;
+    width: 25rem;
   }
+  .wordmark {
+    fill: white;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  
+  .wordmark:hover {
+    fill: black;
+  }
+  
 
   .hero {
     min-height: 100vh;
