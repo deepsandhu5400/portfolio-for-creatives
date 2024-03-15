@@ -1,41 +1,34 @@
 :root {
-    --gradient:linear-gradient(
-        to left bottom,
-        #1f0714,
-        #3a0f22,
-        #58112c,
-        #781033,
-        #991136,
-        #9e2428,
-        #a03617,
-        #9d4700,
-        #7c5700,
-        #5a5f00,
-        #38621e,
-        #0f623a
-      );
+  --gradient: linear-gradient(
+    to left bottom,
+    #385683,
+    #024c63,
+    #113d40,
+    #1d2c26,
+    #1b1c1a
+  );
 }
 
 .gradient-animation {
-    background-size: 600%;
-    background-image: var(--gradient);
-    animation: bg-animation 90s infinite alternate;
+  background-size: 600%;
+  background-image: var(--gradient);
+  animation: bg-animation 90s infinite alternate;
 }
 
 @keyframes bg-animation {
-    0% {
-        background-position: 0;
-    }
-    100% {
-        background-position: 100%;
-    }
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
 
 @keyframes bg-animation {
-    0% {
-        background-position: 0;
-    }
-    100% {
-        background-position: 100%;
-    }
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
