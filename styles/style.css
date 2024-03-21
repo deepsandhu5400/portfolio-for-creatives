@@ -878,6 +878,7 @@ a.sub-navigation-link:hover {
   .footer-item-1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    font-size: 2rem;
   }
 
   .about-item-2 {
